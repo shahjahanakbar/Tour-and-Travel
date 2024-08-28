@@ -1,0 +1,62 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .hero-mid {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .hero-mid h1 {
+    padding-top: 4rem !important;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the container */
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff; /* Ensure text color contrasts with background */
+    padding: 0.5rem; /* Add padding for better spacing */
+    border-radius: 6px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Ensure text does not wrap */
+    overflow: hidden; /* Hide overflowing text */
+  }
+  
+  .hero-text p {
+    font-size: 1.3rem;
+    color: #fff; /* Ensure text color contrasts with background */
+    padding: 0.5rem 0 2rem 0;
+  }
+  
+  @media screen and (max-width: 555px) {
+    .hero-text h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+      padding: 10px 20px;
+    }
+  
+    .hero-text p {
+      font-size: 1.1rem;
+      padding: 0 0 2rem 0;
+    }
+  }
+  

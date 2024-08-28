@@ -1,0 +1,124 @@
+/* General Styles for the Pricing Table */
+.card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff; /* Ensure background color for all cards */
+}
+
+.card-body {
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-subtitle {
+    font-size: 1.25rem;
+    color: #888;
+}
+
+.card-text {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+ul.list-unstyled {
+    padding: 0;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 0.75rem; /* Increased margin between items */
+    font-size: 1rem; /* Slightly larger text */
+}
+
+/* Button Styles */
+.btn-dark {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #333333; /* Slightly lighter on hover */
+}
+
+/* Card Hover Effects */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgb(40, 35, 35);
+}
+
+/* Most Popular Card Styles */
+.popular-card {
+    position: relative;
+    z-index: 1;
+    border: 2px solid #2b3846; /* Dark border for prominence */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05); /* Slightly larger by default */
+    padding: 2rem; /* Ensure consistent padding */
+}
+
+.popular-tag {
+    position: absolute;
+    top: -20px; /* Increased space above the tag */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2b3846; /* Dark background for the tag */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem; /* Adjusted text size for the tag */
+}
+
+.popular-card:hover {
+    transform: scale(1.1); /* More scale effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Other Cards' Hover Effect */
+.row > .col-md-4:not(.popular-card) {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.row > .col-md-4:not(.popular-card):hover {
+    opacity: 0.9;
+}
+
+.row > .col-md-4:hover {
+    opacity: 1;
+}
+/* List Icon Styles */
+/* List Icon Styles */
+ul.list-unstyled li {
+    margin-bottom: 0.75rem; /* Increased margin between items */
+    font-size: 1rem; /* Slightly larger text */
+    position: relative;
+    padding-left: 2.5rem; /* Space for the icon */
+}
+
+ul.list-unstyled li::before {
+    content: "\f00c"; /* Unicode for Font Awesome check icon */
+    font-family: 'Font Awesome 6 Free'; /* Font Awesome font family */
+    font-weight: 900; /* Solid style for the check icon */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745; /* Green color for the check icon */
+    font-size: 1.2rem; /* Size of the check icon */
+}
