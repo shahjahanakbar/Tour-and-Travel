@@ -112,7 +112,7 @@ ul.list-unstyled li {
 }
 
 ul.list-unstyled li::before {
-    content: "\f00c"; /* Unicode for Font Awesome check icon */
+    content: "\f058"; /* Unicode for Font Awesome check icon */
     font-family: 'Font Awesome 6 Free'; /* Font Awesome font family */
     font-weight: 900; /* Solid style for the check icon */
     position: absolute;
