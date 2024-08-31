@@ -2,14 +2,22 @@
     width: 100%;
     height: 100vh;
     position: relative;
+<<<<<<< HEAD
     overflow: hidden; 
+=======
+    overflow: hidden; /* Ensure content doesn't overflow */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .hero-mid {
     width: 100%;
     height: 70vh;
     position: relative;
+<<<<<<< HEAD
     overflow: hidden; 
+=======
+    overflow: hidden; /* Ensure content doesn't overflow */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .hero-mid h1 {
@@ -19,7 +27,11 @@
   .hero img {
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     object-fit: cover;
+=======
+    object-fit: cover; /* Ensure image covers the container */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .hero-text {
@@ -28,29 +40,50 @@
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align: center; /* Center text horizontally */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .hero-text h1 {
     font-size: 3rem;
     font-weight: 800;
+<<<<<<< HEAD
     color: #fff; 
     padding: 0.5rem;
     border-radius: 6px;
     margin: 0;
     white-space: nowrap;
     overflow: hidden; 
+=======
+    color: #fff; /* Ensure text color contrasts with background */
+    padding: 0.5rem; /* Add padding for better spacing */
+    border-radius: 6px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Ensure text does not wrap */
+    overflow: hidden; /* Hide overflowing text */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .hero-text p {
     font-size: 1.3rem;
+<<<<<<< HEAD
     color: #fff; 
+=======
+    color: #fff; /* Ensure text color contrasts with background */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     padding: 0.5rem 0 2rem 0;
   }
   
   @media screen and (max-width: 555px) {
     .hero-text h1 {
+<<<<<<< HEAD
       font-size: 2rem;
+=======
+      font-size: 2rem; /* Adjust font size for smaller screens */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
       padding: 10px 20px;
     }
   

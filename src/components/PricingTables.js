@@ -1,10 +1,22 @@
+<<<<<<< HEAD
 import React from 'react';
 import './PricingTablesStyles.css'; 
+=======
+// src/components/PricingTables.js
+
+import React from 'react';
+import './PricingTablesStyles.css'; // Import the custom CSS
+
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 const PricingTables = () => {
   return (
     <section className="container my-5">
       <h1 className="text-center mb-4">Tour Packages</h1>
       <div className="row">
+<<<<<<< HEAD
+=======
+        {/* Card 1 */}
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
         <div className="col-md-4 mb-4">
           <div className="card">
             <div className="card-body">
@@ -25,6 +37,10 @@ const PricingTables = () => {
           </div>
         </div>
 
+<<<<<<< HEAD
+=======
+        {/* Card 2 */}
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
         <div className="col-md-4 mb-4">
           <div className="card popular-card">
             <div className="card-body">
@@ -47,6 +63,10 @@ const PricingTables = () => {
           </div>
         </div>
 
+<<<<<<< HEAD
+=======
+        {/* Card 3 */}
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
         <div className="col-md-4 mb-4">
           <div className="card">
             <div className="card-body">

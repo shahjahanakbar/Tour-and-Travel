@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 
 .pricing-hero {
     width: 100%;
     height: 70vh; 
+=======
+/* src/components/PricingHeroStyles.css */
+
+.pricing-hero {
+    width: 100%;
+    height: 70vh; /* Adjust the height to suit the Pricing page */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     position: relative;
     overflow: hidden;
   }
@@ -22,12 +30,20 @@
   }
   
   .pricing-hero .hero-text h1 {
+<<<<<<< HEAD
     font-size: 2.5rem; 
+=======
+    font-size: 2.5rem; /* Adjust font size if needed */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     color: #fff;
   }
   
   .pricing-hero .hero-text p {
+<<<<<<< HEAD
     font-size: 1.2rem; 
+=======
+    font-size: 1.2rem; /* Adjust font size if needed */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     color: #fff;
   }
   

@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 
+=======
+/* General Styles for the Pricing Table */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 .card {
     border: none;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+<<<<<<< HEAD
     background-color: #ffffff; 
+=======
+    background-color: #ffffff; /* Ensure background color for all cards */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 }
 
 .card-body {
@@ -34,10 +42,18 @@ ul.list-unstyled {
 }
 
 ul.list-unstyled li {
+<<<<<<< HEAD
     margin-bottom: 0.75rem;     
     font-size: 1rem; 
 }
 
+=======
+    margin-bottom: 0.75rem; /* Increased margin between items */
+    font-size: 1rem; /* Slightly larger text */
+}
+
+/* Button Styles */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 .btn-dark {
     background-color: #000000;
     border: none;
@@ -50,14 +66,22 @@ ul.list-unstyled li {
 }
 
 .btn-dark:hover {
+<<<<<<< HEAD
     background-color: #333333;
 }
 
+=======
+    background-color: #333333; /* Slightly lighter on hover */
+}
+
+/* Card Hover Effects */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgb(40, 35, 35);
 }
 
+<<<<<<< HEAD
 .popular-card {
     position: relative;
     z-index: 1;
@@ -65,19 +89,37 @@ ul.list-unstyled li {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transform: scale(1.05); 
     padding: 2rem; 
+=======
+/* Most Popular Card Styles */
+.popular-card {
+    position: relative;
+    z-index: 1;
+    border: 2px solid #2b3846; /* Dark border for prominence */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05); /* Slightly larger by default */
+    padding: 2rem; /* Ensure consistent padding */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 }
 
 .popular-tag {
     position: absolute;
+<<<<<<< HEAD
     top: -20px; 
     left: 50%;
     transform: translateX(-50%);
     background: #2b3846;
+=======
+    top: -20px; /* Increased space above the tag */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2b3846; /* Dark background for the tag */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 25px;
     font-weight: 700;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-size: 0.9rem; 
 }
 
@@ -86,6 +128,17 @@ ul.list-unstyled li {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+=======
+    font-size: 0.9rem; /* Adjusted text size for the tag */
+}
+
+.popular-card:hover {
+    transform: scale(1.1); /* More scale effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Other Cards' Hover Effect */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 .row > .col-md-4:not(.popular-card) {
     opacity: 0.7;
     transition: opacity 0.3s ease;
@@ -98,6 +151,7 @@ ul.list-unstyled li {
 .row > .col-md-4:hover {
     opacity: 1;
 }
+<<<<<<< HEAD
 ul.list-unstyled li {
     margin-bottom: 0.75rem;
     font-size: 1rem;
@@ -109,10 +163,30 @@ ul.list-unstyled li::before {
     content: "\f058"; 
     font-family: 'Font Awesome 6 Free';
     font-weight: 900; 
+=======
+/* List Icon Styles */
+/* List Icon Styles */
+ul.list-unstyled li {
+    margin-bottom: 0.75rem; /* Increased margin between items */
+    font-size: 1rem; /* Slightly larger text */
+    position: relative;
+    padding-left: 2.5rem; /* Space for the icon */
+}
+
+ul.list-unstyled li::before {
+    content: "\f00c"; /* Unicode for Font Awesome check icon */
+    font-family: 'Font Awesome 6 Free'; /* Font Awesome font family */
+    font-weight: 900; /* Solid style for the check icon */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+<<<<<<< HEAD
     color: #28a745; 
     font-size: 1.2rem; 
+=======
+    color: #28a745; /* Green color for the check icon */
+    font-size: 1.2rem; /* Size of the check icon */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
 }

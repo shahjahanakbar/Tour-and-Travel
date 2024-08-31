@@ -1,5 +1,9 @@
 .NavbarItems {
+<<<<<<< HEAD
     background: #333; 
+=======
+    background: #333; /* Background color */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -49,7 +53,11 @@
   }
   
   .nav-item a .nav-text {
+<<<<<<< HEAD
     margin-left: 8px; 
+=======
+    margin-left: 8px; /* Space between icon and text */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   }
   
   .nav-item a i {
@@ -61,7 +69,11 @@
   }
   
   .nav-button button {
+<<<<<<< HEAD
     background-color: #f5a623;
+=======
+    background-color: #f5a623; /* Button color */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
     border: none;
     color: #fff;
     padding: 10px 20px;
@@ -71,9 +83,16 @@
   }
   
   .nav-button button:hover {
+<<<<<<< HEAD
     background-color: #e59400;
   }
   
+=======
+    background-color: #e59400; /* Button hover color */
+  }
+  
+  /* Responsive styling */
+>>>>>>> ac3cef30ab0875bda0bffbd41b6ce68a5dee31ba
   @media screen and (max-width: 768px) {
     .menu-icons {
       display: block;
